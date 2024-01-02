@@ -15,7 +15,7 @@ var customMap = false;
 }*/
 function initBasemaps() {
 	//main map
-	mapboxgl.accessToken = 'pk.eyJ1Ijoiam9lbW9saW5lbGxpIiwiYSI6ImNsZnBub2I1NDAwamMzcHJyYWRsaHBmcWoifQ.zpN0aa35qN9MQzouJFhjJA';
+	mapboxgl.accessToken = 'YOUR_API_KEY';
 	map = new mapboxgl.Map({
 		container: 'radar-3', // container ID
 		style: 'mapbox://styles/goldbblazez/cl10wz58y000q14ptdm3vkmxe', // style URL
