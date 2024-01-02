@@ -9,7 +9,7 @@ var apperanceSettings = {
   iconSet:"2010", //2007 or 2010 or 2005
   serialNumber:"",// Ex. "TWCS02983932"
   headinID:"", // Ex. "0298393223"
-  affilateName:"Xfinity",// Ex. "Comcast"
+  affilateName:"Blue Ridge Communications",// Ex. "Comcast"
   logoURL:"", //image size must be 879*184px or similar aspect ratio.
   corebackgroud:"buildings", //forest, mountain, city, buildings, neighborhood, southwest, ocean. Default is buildings.
   backgroudType:"",//Set to
