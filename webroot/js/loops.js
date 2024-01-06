@@ -1,4 +1,4 @@
-var loopssevereweathermode = true;
+var loopssevereweathermode = false;
 var displayingAtmospheric = false;
 var miniMap;
 function Loops() {
