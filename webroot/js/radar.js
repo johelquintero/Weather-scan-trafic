@@ -15,7 +15,7 @@ var customMap = false;
 }*/
 function initBasemaps() {
 	//main map
-	mapboxgl.accessToken = 'YOUR_API_KEY';
+	mapboxgl.accessToken = map_key
 	map = new mapboxgl.Map({
 		container: 'radar-3', // container ID
 		style: 'mapbox://styles/goldbblazez/cl10wz58y000q14ptdm3vkmxe', // style URL
