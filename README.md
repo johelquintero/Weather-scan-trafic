@@ -1,3 +1,5 @@
+FOR THE BEST EXPERIENCE, USE GOOGLE CHROME
+
 ## Running locally:
 1. Download & Install [node.js LTS](https://nodejs.org/en/)
 2. Get weather.com, developer.tomtom.com and mapbox.com API keys.
@@ -9,7 +11,7 @@
 8. In terminal, run `npm start` in the root folder of this project. This will start a local web server.
 9. Follow the link in the console output.
 
-##Steps for getting tomtom.com traffic API key:
+## Steps for getting tomtom.com traffic API key:
 1. Go to developer.tomtom.com
 2. Click "Login" at top right of screen.
 3. Click "Create an Account" if you do not have a login, or just sign in if you do have an account.
