@@ -1286,7 +1286,7 @@ function grabTrafficData() {
   $.getJSON(trafurl, function(data) {
     if (data.incidents.length === 0) {
       //weatherInfo.trafficIncidents.enabled == false;
-      console.log("disabled");
+ 
     } else {
       weatherInfo.trafficIncidents.enabled = true
       weatherInfo.trafficIncidents.incidentcount = data.incidents.length
@@ -1303,11 +1303,7 @@ function grabTrafficData() {
       weatherInfo.trafficIncidents.incidents.push(inclist);
     } 
   }
-    console.log(data)
-    console.log("AMOUNT OF INCIDENTS " + weatherInfo.trafficIncidents.incidentcount)
-    console.log(data.incidents[0].length)
-    console.log(data.incidents[0].properties.length)
-    console.log(weatherInfo.trafficIncidents)
+   
   })
 }
 
