@@ -19,6 +19,6 @@ https://discord.io/WeatherRanch
 7. In terminal, run `npm install --production` in the root folder of this project. This will install any dependencies.
 8. In terminal, run `npm start` in the root folder of this project. This will start a local web server.
 9. Follow the link in the console output.
-### Video Tutorial:
+### Video Tutorial For Normal Setup (No Traffic Key):
 [![Weatherscan Emulator Local Install](https://img.youtube.com/vi/2oDdpsCEWOU/maxresdefault.jpg)](https://www.youtube.com/watch?v=2oDdpsCEWOU)
 ## NO VIDEO TUTORIAL FOR GETTING TRAFFIC KEY YET
