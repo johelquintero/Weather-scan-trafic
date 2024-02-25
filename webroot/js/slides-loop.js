@@ -1881,7 +1881,7 @@ var mainMap
 				//reset skip for next go around.
 				keys[idx].skipped = false
 				divTest.dataset.slideorder = JSON.stringify(keys)
-				console.log(divTest.dataset.slideorder)
+				
 				idx++;
 				grabTestDiv()
 			}
@@ -1941,7 +1941,7 @@ var mainMap
 					var ogSlide
 					if (!keysNext[preloadIdx].originalSlide) {
 						ogSlide = JSON.parse(divTestNext.dataset.slideorder)
-						console.log(ogSlide[preloadIdx])
+						
 					}
 					keysNext[preloadIdx] = keysNext[preloadIdx].alternate
 					keysNext[preloadIdx].originalSlide = ogSlide[preloadIdx]
@@ -2147,7 +2147,7 @@ var mainMap
 			}
 			if (slideLoopSettings.order[slide].locidx.includes('reverse')) locIdxOrder.reverse();
 			if (slideLoopSettings.order[slide].locidx.includes('random')) shuffle(locIdxOrder);
-			console.log(locIdxOrder)
+			
 			for (var loc = 0; loc < locIdxOrder.length; loc++) {
 				$('#slides-header .hscroller').append(((totalSlides > 0) ? arrow : "") + grabDiv(slideLoopSettings.order[slide].type, locIdxOrder[loc], totalSlides, ((slideLoopSettings.order[slide].repeat.length) ? slideLoopSettings.order[slide].repeat[loc % slideLoopSettings.order[slide].repeat.length] : slideLoopSettings.order[slide].repeat), ((slideLoopSettings.order[slide].slideDelay.length) ? slideLoopSettings.order[slide].slideDelay[loc % slideLoopSettings.order[slide].slideDelay.length] : slideLoopSettings.order[slide].slideDelay), ((slideLoopSettings.order[slide].slideOrders) ? JSON.stringify(slideLoopSettings.order[slide].slideOrders[loc % slideLoopSettings.order[slide].slideOrders.length]) : JSON.stringify(slideLoopSettings.order[slide].slideOrder)).replaceAll('replaceLocIdx',locIdxOrder[loc]), slideLoopSettings.order[slide].loopComplete));
 				totalSlides += 1
