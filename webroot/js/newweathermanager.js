@@ -1282,7 +1282,6 @@ function grabAirportData() {
 //traffic pull
 function grabTrafficData() {
   var trafurl = 'https://api.tomtom.com/traffic/services/5/incidentDetails?bbox='+trafficcoords1.lon+'%2C'+trafficcoords1.lat+'%2C'+trafficcoords2.lon+'%2C'+trafficcoords2.lat+'&fields=%7Bincidents%7Btype%2Cgeometry%7Btype%7D%2Cproperties%7BiconCategory%2Cevents%7Bdescription%7D%2Cfrom%2Cto%2Ctmc%7Bdirection%7D%2CmagnitudeOfDelay%7D%7D%7D&language=en-US&categoryFilter=1%2C9&timeValidityFilter=present&key='+ traf_key
-  console.log(trafurl);
   $.getJSON(trafurl, function(data) {
     if (data.incidents.length === 0) {
       //weatherInfo.trafficIncidents.enabled == false;
