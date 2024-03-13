@@ -2682,11 +2682,12 @@ background-image: url(/images/moonphases/NEW.png);
   padding-top: 19px;
   line-height: 35px;
   text-shadow: 2px 2px 4px #000;
-  height: 50px;
+  height: 55px;
   padding-left: 77.5px;
   text-shadow: #000 2px 2px 4px;
   overflow: hidden;
   transform-origin: left;
+  overflow: hidden;
 }
 .info-slide-content.traffic-report .frost-pane.top {
   position: absolute;
@@ -2767,11 +2768,12 @@ background-image: url(/images/moonphases/NEW.png);
   font-family: Frutiger;
   font-size: 30px;
   text-shadow: 2px 2px 4px #000;
-  height: 35px;
+  height: 40px;
   padding-top: 10px;
   padding-left: 25px;
   text-shadow: #000 2px 2px 4px;
   transform-origin: left;
+  overflow:hidden;
 }
 .info-slide-content.traffic-report .frost-pane.bot {
   position: absolute;
