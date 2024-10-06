@@ -1513,7 +1513,7 @@ function trafficMap() {
         touchPitch: false,
         pitchWithRotate: false,
         zoom: 8.5,
-        style: "https://api.tomtom.com/style/2/custom/style/dG9tdG9tQEBAQW1IV1hMWktoeTllNUJYUjs5Njk3MDk0Mi1lZjVmLTQ5YjktYTU0ZS0yYmMxMzljNGNmZDk=/drafts/0.json?key=" + traf_key,
+        style: "https://api.tomtom.com/style/2/custom/style/dG9tdG9tQEBAQW1IV1hMWktoeTllNUJYUjtmZTAyMzAwYy1iMjMzLTQ3NDktOTBiMC1mOGEyZGNhOWM5ZWM=.json?key=" + traf_key,
         stylesVisibility: {
             trafficFlow: true
         },
