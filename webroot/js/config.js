@@ -3,18 +3,7 @@
 var codeval
 var api_key = 'YOUR_API_KEY';
 var map_key = 'YOUR_API_KEY';
-var traf_key
-function randomKey() {
-  codeval = Math.random() * (3.9 - 1) + 1
-  codeval = codeval.toString().substring(0,1)
-  let finalcodeval = Number(codeval);
-  var tkeys = ['O4oaqTxH53uWF2yRCknGZb367LIZvrBr',
-    'ZGbDSq2LAIgaEArstZfeMWV8HQwG2Dlu',
-    'cJG5MpqFVuqA6VfHYFcDxz2NoQOmmBVG'];
-  //traf_key = tkeys[finalcodeval]
-  traf_key = 'cJG5MpqFVuqA6VfHYFcDxz2NoQOmmBVG'
-}
-randomKey();
+var traf_key = 'YOUR_API_KEY';
 //Apperance settings. Fields left blank will use defaults. Will only refresh upon reload.
 var apperanceSettings = {
   iconSet:"2010", //2007 or 2010 or 2005
